@@ -8095,3 +8095,22 @@ a.navbar-brand {
 .panel-default .panel-heading .dropdown-menu a {
   color: #655B50;
 }
+
+.sitelogo img
+{
+	margin-top: 5px;
+}
+
+#mod-logotopbar1 .sitelogo
+{
+	width: 100%;
+}
+
+#mod-logotopbar1 .sitelogo img
+{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 900px; /* pls don't hit me */
+}
