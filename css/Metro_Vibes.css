@@ -7643,7 +7643,7 @@ table.tablesorter thead tr.tablesorter-filter-row input.tablesorter-filter {
 }
 #col2 .panel,
 #col3 .panel {
-  background: #ffffff;
+  background: #663E10;
   border-radius: 5px;
   border-width: 0;
   box-shadow: 0 0 12px rgba(58, 51, 46, 0.259);
@@ -7651,7 +7651,7 @@ table.tablesorter thead tr.tablesorter-filter-row input.tablesorter-filter {
 }
 #col2 .panel.panel-default > .panel-heading,
 #col3 .panel.panel-default > .panel-heading {
-  background: #b1a599;
+  background: #92d050;
   box-shadow: inset 0px -2px 2px rgba(73, 73, 73, 0.157);
   padding: 24px 10px;
   text-align: center;
