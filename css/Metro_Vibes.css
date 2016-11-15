@@ -7765,7 +7765,7 @@ a.navbar-brand {
   margin-bottom: -4px;
 }
 .tab-content {
-  background: #ffffff;
+  /* background: #ffffff; */
   border-radius: 5px;
   box-shadow: 0 0 12px rgba(58, 51, 46, 0.259);
   margin-bottom: 30px;
