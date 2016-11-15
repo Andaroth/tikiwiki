@@ -105,7 +105,7 @@ a.fc-event:hover {
 .topbar,
 .topbar .navbar-default .navbar-nav > li,
 .topbar .nav > li {
-  background: #f8f8f8;
+  background: transparent; /* #f8f8f8; */
   color: #777;
 }
 .topbar > a,

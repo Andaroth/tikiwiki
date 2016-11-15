@@ -1088,7 +1088,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #1c1a17;
+  color: white; /* #1c1a17; */
   background-color: #aa8a6e;
 }
 input,
@@ -1100,13 +1100,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #655B50;
+  color: #92D050; /* #655B50;*/
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #8D8569;
-  text-decoration: none;
+  color: white;
+  text-decoration: underline;
 }
 a:focus {
   outline: thin dotted;
@@ -1190,7 +1190,7 @@ h6,
   font-family: inherit;
   font-weight: 400;
   line-height: 1.2;
-  color: #5c5146;
+  color: grey; /* #5c5146; */
 }
 h1 small,
 h2 small,
@@ -5674,7 +5674,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-heading {
   color: #fff;
-  background-color: #655B50;
+  background-color: #663E10; /* #655B50; */
   border-color: #655B50;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
@@ -7573,7 +7573,9 @@ table.tablesorter thead tr.tablesorter-filter-row {
 body,
 body.fullscreen,
 .navbar-collapse.collapse.in {
-  background: #aa8a6e url('../images/bg.jpg') center top repeat;
+  background: #663E10 url('../images/bgTO.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 ::-moz-selection {
   background: #aba98c;
@@ -7635,9 +7637,9 @@ table.tablesorter thead tr.tablesorter-filter-row input.tablesorter-filter {
 #autotoc > ul {
   border-radius: 8px;
   /* Fallback for web browsers that doesn't support RGBa */
-  background: #ffffff;
+  background: #000;
   /* RGBa with 0.6 opacity */
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(0,0,0, 0.8);
   /* For IE 8*/
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
@@ -7651,7 +7653,7 @@ table.tablesorter thead tr.tablesorter-filter-row input.tablesorter-filter {
 }
 #col2 .panel.panel-default > .panel-heading,
 #col3 .panel.panel-default > .panel-heading {
-  background: #b1a599;
+  background: #663E10 /* #b1a599; */
   box-shadow: inset 0px -2px 2px rgba(73, 73, 73, 0.157);
   padding: 24px 10px;
   text-align: center;
@@ -8103,7 +8105,7 @@ a.navbar-brand {
 
 #mod-logotopbar1 .sitelogo
 {
-  width: 100%;
+	width: 100%;
 }
 
 #mod-logotopbar1 .sitelogo img
