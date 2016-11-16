@@ -6829,10 +6829,10 @@ a.fc-event:hover {
   border-color: transparent;
   border-left-color: #262626;
 }
-.topbar,
+/* .topbar, */
 .topbar .navbar-default .navbar-nav > li,
 .topbar .nav > li {
-  background: #f8f8f8;
+  background: transparent; /* #f8f8f8; */
   color: #8E8071;
 }
 .topbar > a,
@@ -7769,7 +7769,7 @@ a.navbar-brand {
   margin-bottom: -4px;
 }
 .tab-content {
-  background: #ffffff;
+  /* background: #ffffff; */
   border-radius: 5px;
   box-shadow: 0 0 12px rgba(58, 51, 46, 0.259);
   margin-bottom: 30px;
@@ -8104,19 +8104,19 @@ a.navbar-brand {
 
 .sitelogo img
 {
-	margin-top: 5px;
+  margin-top: 5px;
 }
 
 #mod-logotopbar1 .sitelogo
 {
-	width: 100%;
+  width: 100%;
 }
 
 #mod-logotopbar1 .sitelogo img
 {
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	max-width: 900px; /* pls don't hit me */
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 900px; /* pls don't hit me */
 }
