@@ -5450,6 +5450,8 @@ button.list-group-item-danger.active:focus {
   border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius:8px;
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
@@ -7633,7 +7635,11 @@ table.tablesorter thead tr.tablesorter-filter-row input.tablesorter-filter {
 .col1,
 #autosave_preview,
 #autotoc > ul {
-  border-radius: 8px;
+  /*border-radius: 8px; ancien border radius */
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius:8px;
   /* Fallback for web browsers that doesn't support RGBa */
   background: #ffffff;
   /* RGBa with 0.6 opacity */
